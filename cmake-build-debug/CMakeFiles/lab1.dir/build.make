@@ -66,6 +66,7 @@ include CMakeFiles/lab1.dir/progress.make
 include CMakeFiles/lab1.dir/flags.make
 
 CMakeFiles/lab1.dir/main.cpp.obj: CMakeFiles/lab1.dir/flags.make
+CMakeFiles/lab1.dir/main.cpp.obj: CMakeFiles/lab1.dir/includes_CXX.rsp
 CMakeFiles/lab1.dir/main.cpp.obj: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\study\parralel\lab1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab1.dir/main.cpp.obj"
 	"D:\CLion 2022.1.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab1.dir\main.cpp.obj -c D:\study\parralel\lab1\main.cpp
@@ -87,6 +88,7 @@ lab1_EXTERNAL_OBJECTS =
 
 lab1.exe: CMakeFiles/lab1.dir/main.cpp.obj
 lab1.exe: CMakeFiles/lab1.dir/build.make
+lab1.exe: lib/libgtest.a
 lab1.exe: CMakeFiles/lab1.dir/linklibs.rsp
 lab1.exe: CMakeFiles/lab1.dir/objects1.rsp
 lab1.exe: CMakeFiles/lab1.dir/link.txt

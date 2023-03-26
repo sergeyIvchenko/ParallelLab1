@@ -3,4 +3,6 @@ project(lab1)
 
 set(CMAKE_CXX_STANDARD 20)
 add_subdirectory(D:/googletest-main/googletest googletest)
-add_executable(lab1 main.cpp)
+include_directories(googletest/googletest/include)
+add_executable(lab1 main.cpp thread_exercise.h)
+target_link_libraries(lab1 gtest -static gcc stdc++ winpthread-1)

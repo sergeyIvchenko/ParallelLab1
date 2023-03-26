@@ -4,7 +4,7 @@
 # compile CXX with D:/CLion 2022.1.2/bin/mingw/bin/g++.exe
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = @CMakeFiles/lab1.dir/includes_CXX.rsp
 
 CXX_FLAGS = -g -std=gnu++20
 

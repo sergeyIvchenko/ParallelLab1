@@ -6,21 +6,3 @@
 
 #IncludeRegexTransform: 
 
-D:/study/parralel/lab1/main.cpp
-iostream
--
-chrono
--
-functional
--
-vector
--
-windows.h
--
-random
--
-thread
--
-mutex
--
-

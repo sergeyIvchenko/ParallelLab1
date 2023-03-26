@@ -24,6 +24,9 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/study/parralel/lab1/googletest/googletest/include"/>
+					<Add directory="D:/googletest-main/googletest/googletest/include"/>
+					<Add directory="D:/googletest-main/googletest/googletest"/>
 					<Add directory="D:/CLion 2022.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
 					<Add directory="D:/CLion 2022.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="D:/CLion 2022.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
@@ -46,6 +49,9 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/study/parralel/lab1/googletest/googletest/include"/>
+					<Add directory="D:/googletest-main/googletest/googletest/include"/>
+					<Add directory="D:/googletest-main/googletest/googletest"/>
 					<Add directory="D:/CLion 2022.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
 					<Add directory="D:/CLion 2022.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="D:/CLion 2022.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
@@ -335,6 +341,9 @@
 			<Option target="gtest_main"/>
 		</Unit>
 		<Unit filename="D:/study/parralel/lab1/main.cpp">
+			<Option target="lab1"/>
+		</Unit>
+		<Unit filename="D:/study/parralel/lab1/thread_exercise.h">
 			<Option target="lab1"/>
 		</Unit>
 		<Unit filename="D:/study/parralel/lab1/CMakeLists.txt">
