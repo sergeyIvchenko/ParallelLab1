@@ -6,6 +6,5 @@ int main() {
     testing::InitGoogleTest();
     generate_matrix(matrix);
     base = matrix;
-
     return RUN_ALL_TESTS();
 }
